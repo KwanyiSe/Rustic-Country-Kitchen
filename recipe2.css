@@ -1,0 +1,145 @@
+/* recipe2.css – Mature, clean styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f7f3;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #2c2b28;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+    margin-top: 1.8em;
+    margin-bottom: 0.75em;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 0;
+    color: #4a4a2a;
+    border-bottom: 1px solid #e6e0d0;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #5c5c3c;
+    border-left: 4px solid #c7b27e;
+    padding-left: 1rem;
+}
+
+.intro {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    background: #fefcf7;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.intro img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.meta {
+    font-size: 0.95rem;
+    color: #5a5242;
+}
+
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+.comment {
+    background: #fef7e0;
+    border-left: 4px solid #c7b27e;
+    padding: 1.2rem 1.5rem;
+    margin: 1.2rem 0;
+    font-style: italic;
+    border-radius: 0 12px 12px 0;
+}
+
+.commenter {
+    margin-top: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #7a6a4a;
+}
+
+a {
+    color: #7a6a3a;
+    text-decoration: none;
+    border-bottom: 1px dotted #d4c5a5;
+}
+
+a:hover {
+    color: #4a3a1a;
+    border-bottom-color: #4a3a1a;
+}
+
+.validators {
+    margin: 2rem 0 1rem;
+    text-align: right;
+}
+
+.validators img {
+    height: 24px;
+    margin-left: 0.5rem;
+}
+
+pre.copyright {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    background: #faf9f5;
+    padding: 1rem;
+    border-top: 1px solid #e0d8c8;
+    margin-top: 2rem;
+    white-space: pre;
+    color: #6a5a42;
+}
+
+del {
+    color: #b56576;
+}
+
+ins {
+    text-decoration: none;
+    background: #e9f5e9;
+    padding: 0 0.2rem;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 1rem;
+    }
+    .container {
+        padding: 1.5rem;
+    }
+}
